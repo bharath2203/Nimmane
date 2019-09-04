@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862646182641",
+    "firebase_url": "https://nimmane-ca442.firebaseio.com",
+    "project_id": "nimmane-ca442",
+    "storage_bucket": "nimmane-ca442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862646182641:android:b63a43a3787638e5",
+        "android_client_info": {
+          "package_name": "com.example.nimmane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862646182641-iaka9je9ih13lon6u1q38ki3f9kcdjq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nimmane",
+            "certificate_hash": "881443f57441515ec8861c1cfd8a1ed08cf0e605"
+          }
+        },
+        {
+          "client_id": "862646182641-k6g5fvqlj2muj6bchnfj2loclfib28l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmmS5wmZXmm-L3HaeS7Z8qhEIuJoBvByI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862646182641-k6g5fvqlj2muj6bchnfj2loclfib28l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
