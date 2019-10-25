@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.nimmane"
+        applicationId "com.example.eio"
         minSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -25,6 +25,7 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
 
     implementation 'com.firebaseui:firebase-ui-database:3.1.3'
     implementation 'com.firebaseui:firebase-ui-auth:5.0.0'
@@ -32,6 +33,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'com.google.firebase:firebase-auth:17.0.0'
     implementation 'com.google.firebase:firebase-database:17.0.0'
+    implementation 'com.balysv:material-ripple:1.0.2'                  // ripple effect
+
 
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'

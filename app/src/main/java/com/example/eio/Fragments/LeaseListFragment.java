@@ -1,4 +1,4 @@
-package com.example.nimmane.activity.Fragments;
+package com.example.eio.Fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,9 +12,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import com.example.nimmane.activity.ViewHolder.RecyclerAdapter;
-import com.example.nimmane.R;
-import com.example.nimmane.activity.Models.RentModel;
+import com.example.eio.ViewHolder.RecyclerAdapter;
+import com.example.eio.R;
+import com.example.eio.Models.RentModel;
 
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;

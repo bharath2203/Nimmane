@@ -4,7 +4,13 @@
 
     <style name="AppTheme" parent="BaseTheme">
         <item name="android:fontFamily">@font/nova</item>
-        <item name="fontFamily">@font/nova</item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
+        <item name="fontFamily">@font/opensans</item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
+    </style>
+
+    <style name="MyToolbarTheme"
+        parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
     </style>
 
     <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">

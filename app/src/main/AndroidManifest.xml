@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.nimmane">
+    package="com.example.eio">
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -13,19 +13,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Activity.SelectTypeActivity"></activity>
+        <!--<activity android:name=".Activity.DetailActivity">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <activity android:name=".Activity.SelectTypeActivity" />
         <activity
-            android:name=".activity.Activity.MainActivity"
-            android:label="@string/title_activity_main"></activity>
-        <activity android:name=".activity.Activity.UploadActivity" />
-        <activity android:name=".activity.Activity.RegisterActivity">
+            android:name=".Activity.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".Activity.UploadActivity" />
+        <activity android:name=".Activity.RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.Activity.HomeActivity"></activity>
+        <activity android:name=".Activity.HomeActivity" />
     </application>
 
 </manifest>

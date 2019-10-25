@@ -1,4 +1,4 @@
-package com.example.nimmane.activity.Activity;
+package com.example.eio.Activity;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -6,15 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.nimmane.R;
-import com.example.nimmane.activity.Models.RentModel;
-import com.example.nimmane.activity.ViewHolder.RecyclerAdapter;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.example.eio.R;
+import com.example.eio.Models.RentModel;
+import com.example.eio.ViewHolder.RecyclerAdapter;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
@@ -27,7 +23,7 @@ import com.google.firebase.database.Query;
 import java.util.ArrayList;
 import java.util.List;
 
-public class    HomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     TextView user_name;
     FirebaseAuth firebase_auth;

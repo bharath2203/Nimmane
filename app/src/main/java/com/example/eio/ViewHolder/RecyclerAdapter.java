@@ -1,4 +1,4 @@
-package com.example.nimmane.activity.ViewHolder;
+package com.example.eio.ViewHolder;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.nimmane.R;
-import com.example.nimmane.activity.Models.RentModel;
+import com.example.eio.R;
+import com.example.eio.Models.RentModel;
 
 import java.util.List;
 

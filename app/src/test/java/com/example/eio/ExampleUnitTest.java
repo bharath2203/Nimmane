@@ -1,4 +1,4 @@
-package com.example.nimmane;
+package com.example.eio;
 
 import org.junit.Test;
 

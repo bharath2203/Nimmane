@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:862646182641:android:b63a43a3787638e5",
+        "mobilesdk_app_id": "1:862646182641:android:b951b39e0a30013bf63f50",
         "android_client_info": {
-          "package_name": "com.example.nimmane"
+          "package_name": "com.example.eio"
         }
       },
       "oauth_client": [
         {
-          "client_id": "862646182641-iaka9je9ih13lon6u1q38ki3f9kcdjq6.apps.googleusercontent.com",
+          "client_id": "862646182641-onaldqigomcjig200b7mins11mv62r5q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.nimmane",
-            "certificate_hash": "881443f57441515ec8861c1cfd8a1ed08cf0e605"
+            "package_name": "com.example.eio",
+            "certificate_hash": "c75e40958b21ba3fd1a8605021c9d66db288e6ba"
           }
         },
         {

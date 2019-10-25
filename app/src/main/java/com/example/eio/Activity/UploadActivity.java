@@ -1,4 +1,4 @@
-package com.example.nimmane.activity.Activity;
+package com.example.eio.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 import com.basgeekball.awesomevalidation.ValidationStyle;
-import com.example.nimmane.R;
-import com.example.nimmane.activity.Models.RentModel;
+import com.example.eio.R;
+import com.example.eio.Models.RentModel;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
